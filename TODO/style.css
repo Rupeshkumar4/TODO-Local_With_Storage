@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.containor{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    min-height: 100vh;
+    padding: 30px;
+    box-sizing: border-box;
+}
+h1{
+    font-family: cursive;
+    text-align: center;
+    margin: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input , textarea, button{
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0,0.2);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font: 100 1.1rem;
+    border-radius: 5px;
+    outline: none;
+    margin: 10px;
+}
+
+button{
+    background-color: rgb(111, 111, 250);
+    cursor: pointer;
+    color: aqua;
+}
+button:hover {
+    background-color: rgb(182, 217, 241);
+}
+.task{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font: 100 1.1rem;
+    padding: 30px;
+    color: rgba(0, 0, 0, 0.868);
+    align-items: center;
+    margin: 2vmax;
+}
+
+.task > div{
+    width: 100%;
+}
+.task > span{
+    color: rgba(0, 0,0,0.632);
+}
+
+.del{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: crimson;
+}
